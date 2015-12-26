@@ -4,9 +4,27 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="./javascripts/JSLINQ.js"></script>
+    <script src="./tags.json"></script>
+    <script src="./gifts.json"></script>
+
+    <script type="text/javascript" src="./javascripts/main.js" ></script>
+
+     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
     <title>Que Regalo</title>
   </head>
@@ -14,24 +32,32 @@
   <body>
 
     <header>
+      <div class="label label-warning" style="margin-left:10px">pre-alpha</div>
       <div class="container">
         <h1>Que Regalo</h1>
         <h2></h2>
 
         <section id="downloads">
+          <a href="index.html" class="btn"></span>Restart</a>
           <a href="https://github.com/jmendiola222/queregalo" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
+        <p>Choose the option that best fits your giftee.</p>
       </div>
     </header>
 
     <div class="container">
-      <section id="main_content">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Que Regalo.</h3>
+      <section id="main_content">       
 
-<p>This site is under construction. Keep looking for that gift by the old archaic boring way. :P</p>
-
+        <h3 id="categoryTitle"></h3>
+        <div>
+          <ul id='options' ></ul>
+        </div>
       </section>
     </div>
   </body>
 </html>
+
+<script type="text/javascript">
+  bindTags();
+</script>
+

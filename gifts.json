@@ -1,0 +1,23 @@
+gifts = [
+	{name:'Crayons', tags:"male,age1,"},
+	{name:'Puppy', tags:"male,age1,"},
+	{name:'Futbol ball', tags:"male,age2,"},
+	{name:'Toy car', tags:"male,age2,"},
+	{name:'Futbol ball', tags:"male,age3,"},
+	{name:'Basketball board', tags:"male,age3,"},
+	{name:'PS4', tags:"male,age4,"},
+	{name:'Steam credit', tags:"male,age4,"},
+	{name:'Lens', tags:"male,age5,"},
+	{name:'Shoes', tags:"male,age5,"},
+	
+	{name:'Doll', tags:"female,age1," },
+	{name:'Clothes', tags:"female,age1," },
+	{name:'Clothes', tags:"female,age2," },
+	{name:'Barbies', tags:"female,age2," },
+	{name:'Clothes', tags:"female,age3," },
+	{name:'Disney trip', tags:"female,age3," },
+	{name:'Clothes', tags:"female,age4," },
+	{name:'Joulery', tags:"female,age4," },
+	{name:'Spa', tags:"female,age5," },
+	{name:'Joulery', tags:"female,age5," },
+]
