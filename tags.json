@@ -12,10 +12,15 @@ tags = [
 		level : 1,
 		parents : ['male','female'],
 		options : [
-			{ id: 'age1', category: 'age', name: '0-5 years old', icon: 'battery-4'},
-			{ id: 'age2', category: 'age', name: '5-10 years old', icon: 'battery-3'},
-			{ id: 'age3', category: 'age', name: '10-20 years old', icon: 'battery-2'},
-			{ id: 'age4', category: 'age', name: '20-40 years old', icon: 'battery-1'}, 
-			{ id: 'age5', category: 'age', name: '40... years old', icon: 'battery-0'}]
+			{ id: 'age1', category: 'age', name: '1 to 3 years old', icon: 'battery-4'},
+			{ id: 'age2', category: 'age', name: '3 to 5 years old', icon: 'battery-3'},
+			{ id: 'age3', category: 'age', name: '6 to 10 years old', icon: 'battery-2'},
+			{ id: 'age4', category: 'age', name: '11 to 14 years old', icon: 'battery-1'}, 
+			{ id: 'age5', category: 'age', name: '15 years old', icon: 'battery-0'}]
+			{ id: 'age5', category: 'age', name: '16 to 19 years old', icon: 'battery-0'}]
+			{ id: 'age5', category: 'age', name: '20 to 25 years old', icon: 'battery-0'}]
+			{ id: 'age5', category: 'age', name: '25 to 35 years old', icon: 'battery-0'}]
+			{ id: 'age5', category: 'age', name: '36 to 65 years old', icon: 'battery-0'}]
+			{ id: 'age5', category: 'age', name: '66 years old and onwards', icon: 'battery-0'}]
 	}
 ];
