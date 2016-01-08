@@ -17,10 +17,10 @@ tags = [
 			{ id: 'age3', category: 'age', name: '6 to 10 years old', icon: 'battery-2'},
 			{ id: 'age4', category: 'age', name: '11 to 14 years old', icon: 'battery-1'}, 
 			{ id: 'age5', category: 'age', name: '15 years old', icon: 'battery-0'}]
-			{ id: 'age5', category: 'age', name: '16 to 19 years old', icon: 'battery-0'}]
-			{ id: 'age5', category: 'age', name: '20 to 25 years old', icon: 'battery-0'}]
-			{ id: 'age5', category: 'age', name: '25 to 35 years old', icon: 'battery-0'}]
-			{ id: 'age5', category: 'age', name: '36 to 65 years old', icon: 'battery-0'}]
-			{ id: 'age5', category: 'age', name: '66 years old and onwards', icon: 'battery-0'}]
+			{ id: 'age6', category: 'age', name: '16 to 19 years old', icon: 'battery-0'}]
+			{ id: 'age7', category: 'age', name: '20 to 25 years old', icon: 'battery-0'}]
+			{ id: 'age8', category: 'age', name: '25 to 35 years old', icon: 'battery-0'}]
+			{ id: 'age9', category: 'age', name: '36 to 65 years old', icon: 'battery-0'}]
+			{ id: 'age10', category: 'age', name: '66 years old and onwards', icon: 'battery-0'}]
 	}
 ];
