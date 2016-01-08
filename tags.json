@@ -22,5 +22,20 @@ tags = [
 			{ id: 'age8', category: 'age', name: '25 to 35 years old', icon: 'battery-0'}]
 			{ id: 'age9', category: 'age', name: '36 to 65 years old', icon: 'battery-0'}]
 			{ id: 'age10', category: 'age', name: '66 years old and onwards', icon: 'battery-0'}]
+	},
+	{ 
+		category: 'likes', 
+		description : 'gift categories',
+		level : 2,
+		parents : ['male','female'],
+		options : [
+			{ id: 'like1', category: 'likes', name: 'sports', icon: <i class="fa fa-bicycle"></i>},
+			{ id: 'like2', category: 'likes', name: 'music', icon: <i class="fa fa-headphones"></i>},
+			{ id: 'like3', category: 'likes', name: 'books and movies, icon: <i class="fa fa-book"></i>},
+			{ id: 'like4', category: 'likes', name: 'technology', icon: <i class="fa fa-laptop"></i>}, 
+			{ id: 'like5', category: 'likes', name: 'cooking', icon: <i class="fa fa-cutlery"></i>}]
+			{ id: 'like6', category: 'likes', name: 'games', icon:<i class="fa fa-gamepad"></i>}]
+			{ id: 'like7', category: 'likes', name: 'new experiences', icon: <i class="fa fa-camera-retro"></i>}]
+			
 	}
 ];
